@@ -15,16 +15,88 @@
 }
 
 .Button {
-  background-color: #282c34;
+  margin: 0 10px;
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: #007bff72;
   border: none;
-  color: white;
-  width: 10rem;
-  height: 3rem;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
+  border-radius: 4px;
   cursor: pointer;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.Button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.Page1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Page2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Page2_Grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.Page2_Column {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.Page3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Page3_Grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.Page3_Column {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sub_sub_title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.q1 {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.q4a {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.q6 {
+  display: flex;
+  margin-bottom: 1.5rem;
 }
