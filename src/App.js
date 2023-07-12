@@ -12,9 +12,9 @@ import q4a_MLP_classification_report from './media/q4a_Multi-Layer Perceptron_cl
 import q4a_RF_confusion_matrix from './media/q4a_Random Forest_confusion_matrix.svg';
 import q4a_RF_roc_curve from './media/q4a_Random Forest_roc_curve.svg';
 import q4a_RF_classification_report from './media/q4a_Random Forest_classification_report.svg';
-import q6_feature_importance from './media/6a_feature_importance.svg';
-// import q6_shap from './media/6b_shap.svg';
-// import q6_lime from './media/6c_lime.svg';
+import q6_feature_importance from './media/q6_feature_importance.svg';
+import q6_shap from './media/q6_shap.png';
+import q6_lime from './media/q6_lime.png';
 
 
 
@@ -80,11 +80,11 @@ function App() {
                 </div>
                 <div className="Page3_Column">
                   <text class="subtitle">SHAP</text>
-                  {/* <img src={q6_shap} alt="Q6 SHAP" class='q6' /> */}
+                  <img src={q6_shap} alt="Q6 SHAP" class='q6' />
                 </div>
                 <div className="Page3_Column">
                   <text class="subtitle">LIME</text>
-                  {/* <img src={q6_lime} alt="Q6 LIME" class='q6' /> */}
+                  <img src={q6_lime} alt="Q6 LIME" class='q6' />
                 </div>
               </div>
             </div>

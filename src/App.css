@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
 }
 
 .Button {
@@ -99,4 +99,5 @@
 .q6 {
   display: flex;
   margin-bottom: 1.5rem;
+  width: 100%;
 }
