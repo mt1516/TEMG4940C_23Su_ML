@@ -1,2 +1,7 @@
-# TEMG4940C_23Su_ML
-## Visit https://mt1516.github.io/TEMG4940C_23Su_ML/ for the dashboard
+# TEMG4940C 2023 Summer
+## W0 Self-study: Machine Learning
+## Part 1 : ML Results
+Open ["TEMG4940C_ML_Assignment_Instruction_.ipynb"](https://github.com/mt1516/TEMG4940C_23Su_ML/blob/main/TEMG4940C_ML_Assignment_Instruction_.ipynb) file to run the ML models
+
+## Part 2 : Dashboard
+Go to [https://mt1516.github.io/TEMG4940C_23Su_ML/](https://mt1516.github.io/TEMG4940C_23Su_ML/) to see the online version.
